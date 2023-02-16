@@ -1,15 +1,9 @@
 
 import React from "react";
-
+import Rotas from "./routes";
 function App() {
-  return (<>
-     <h2> teste</h2>
-      <ul>
-        <li>Home</li>
-        <li>Contato</li>
-      </ul>
-
-  </>
+  return (
+    <Rotas/>
   )
 }
 
