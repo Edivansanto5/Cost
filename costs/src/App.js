@@ -1,11 +1,15 @@
-import {BrowserRouter as Router, Switch, router}from "react-router-dom";
+
+import React from "react";
 
 function App() {
-  return (
-    <div >
-      <p> Costs</p>
-      
-    </div>
+  return (<>
+     <h2> teste</h2>
+      <ul>
+        <li>Home</li>
+        <li>Contato</li>
+      </ul>
+
+  </>
   )
 }
 
