@@ -4,3 +4,10 @@ import React from "react"
 import Home from "../components/pages/Home"
 import Company from "../components/pages/Company"
 
+function Routes(){
+    return(
+        
+    )
+}
+export default Routes
+
