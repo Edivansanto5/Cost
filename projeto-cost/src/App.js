@@ -6,6 +6,7 @@ import Home from "./Components/pages/Home";
 import Contato from "./Components/pages/Contato";
 import NovoProjeto from "./Components/pages/NovoProjeto";
 import Sobre from "./Components/pages/Sobre";
+
 import Container from "./Components/Layout/Container";
 
 function App() {
