@@ -1,9 +1,12 @@
+//importaçoes da biblioteca react-router-dom
 import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
 
+// importaçoes dos componentes das páginas 
 import Home from "./Components/pages/Home";
 import Contato from "./Components/pages/Contato";
 import NovoProjeto from "./Components/pages/NovoProjeto";
 import Sobre from "./Components/pages/Sobre";
+
 function App() {
   return (
    <Router>
@@ -29,8 +32,10 @@ function App() {
            <Route path='/sobre'>
             <Sobre/>
            </Route>
-
+          
       </Switch>
+      
+      <footer>EdivanSantos2023</footer>
    </Router>
   );
 }
