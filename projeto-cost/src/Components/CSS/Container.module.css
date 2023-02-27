@@ -4,9 +4,15 @@
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
-
 }
 
 .min-height{
     min-height: 75%;
+}
+.start{
+    justify-content: flex-start; /*vai levar os conteudos para cima*/
+}
+.colum{
+    flex-direction: column;
+    justify-content: flex-start;
 }
