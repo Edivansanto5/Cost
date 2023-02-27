@@ -6,6 +6,7 @@ import Home from "./Components/pages/Home";
 import Contato from "./Components/pages/Contato";
 import NovoProjeto from "./Components/pages/NovoProjeto";
 import Sobre from "./Components/pages/Sobre";
+import Container from "./Components/Layout/Container";
 
 function App() {
   return (
@@ -17,22 +18,23 @@ function App() {
           <Link to='/sobre'>Sobre</Link>
       </div>
       <Switch>
-          <Route exact path='/'>
-            <Home/>
-          </Route>
+        <Container>
+            <Route exact path='/'>
+              <Home/>
+            </Route>
 
-           <Route path='/contato'>
-            <Contato/>
-           </Route>
+            <Route path='/contato'>
+              <Contato/>
+            </Route>
 
-           <Route path='/novoProjeto'>
-            <NovoProjeto/>
-           </Route>
+            <Route path='/novoProjeto'>
+              <NovoProjeto/>
+            </Route>
 
-           <Route path='/sobre'>
-            <Sobre/>
-           </Route>
-          
+            <Route path='/sobre'>
+              <Sobre/>
+            </Route>
+          </Container>
       </Switch>
       
       <footer>EdivanSantos2023</footer>
