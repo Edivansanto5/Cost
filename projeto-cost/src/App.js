@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
 
 import Home from "./Components/pages/Home";
 import Contato from "./Components/pages/Contato";
@@ -7,10 +7,12 @@ import Sobre from "./Components/pages/Sobre";
 function App() {
   return (
    <Router>
-      <ul>
-          <li>Home</li>
-          <li>Contato</li>
-      </ul>
+      <div>
+          <Link to='/'>Home</Link>
+          <Link to='/contato'>Contato</Link>
+          <Link to='/novoProjeto'>Novo Projeto</Link>
+          <Link to='/sobre'>Sobre</Link>
+      </div>
       <Switch>
           <Route exact path='/'>
             <Home/>
