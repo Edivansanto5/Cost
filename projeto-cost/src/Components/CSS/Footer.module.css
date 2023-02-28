@@ -24,6 +24,13 @@
 
 /*alterando o tamanho dos incones e colocando um cursor quando e passado em cima*/
 .social_list svg{
-    font-size: 1.7em;
+    font-size: 1.5em;
     cursor: pointer;
+}
+.copy_right{
+    margin: 2em;
+}
+.copy_right span{
+    font-weight: bold;
+    color: #ffbb33;
 }
