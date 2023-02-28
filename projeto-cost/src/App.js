@@ -1,10 +1,11 @@
 //importaçoes da biblioteca react-router-dom
-import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // importaçoes dos componentes das páginas 
 import Home from "./Components/pages/Home";
 import Contato from "./Components/pages/Contato";
 import NovoProjeto from "./Components/pages/NovoProjeto";
+import Projetos from "./Components/pages/Projetos";
 import Sobre from "./Components/pages/Sobre";
 
 import Container from "./Components/Layout/Container";
@@ -28,6 +29,10 @@ function App() {
 
             <Route path='/novoProjeto'>
               <NovoProjeto/>
+            </Route>
+
+            <Route path='/projetos'>
+              <Projetos/>
             </Route>
 
             <Route path='/sobre'>
