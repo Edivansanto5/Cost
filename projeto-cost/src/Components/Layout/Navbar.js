@@ -9,13 +9,13 @@ function Navbar(){
             <Container>
                 <Link to='/'> <img src={logo} alt="cost" /></Link>
                <ul className={style.list}>
-                    <li>
+                    <li className={style.item}>
                         <Link to='/'>Home</Link>
                     </li>
-                    <li>
+                    <li className={style.item}>
                         <Link to='/contato'>Contato</Link>
                     </li>
-                    <li>
+                    <li className={style.item}>
                         <Link to='/sobre'>Sobre</Link>
                     </li>
                </ul>

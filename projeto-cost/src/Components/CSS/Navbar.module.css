@@ -10,3 +10,15 @@
     list-style: none;
     align-items: center;
 }
+
+.item{
+    margin-right: 1em;
+}
+.item a{
+    text-decoration: none;
+    color: #fff;
+}
+.item a:hover{
+    color: #ffbb33;
+    
+}
