@@ -4,8 +4,8 @@ import styles from '../CSS/Footer.module.css'
 
 function Footer() {
     return (
-        <footer >
-            <ul className={styles.footer}>
+        <footer className={styles.footer}>
+            <ul className={styles.social_list}>
                 <li>
                     <FaFacebook />
                 </li>
@@ -16,8 +16,9 @@ function Footer() {
                     <FaLinkedin/>
                 </li>
             </ul>
-
-
+            <p><span>EdivanSantos</span> &copy;2023</p>
+            
+        
         </footer>
     )
 }

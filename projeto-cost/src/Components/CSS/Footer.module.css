@@ -1,0 +1,29 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+   padding: 3em;
+}
+/*aplicando display flex*/
+.social_list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/* espaçar cada icone da lista*/ 
+
+.social_list li{
+    margin: 0 1em;
+}
+
+/* mudando a cor dos incones quando passar o mause*/
+.social_list li:hover{
+    color: #ffbb33;
+}
+
+/*alterando o tamanho dos incones e colocando um cursor quando e passado em cima*/
+.social_list svg{
+    font-size: 1.7em;
+    cursor: pointer;
+}
