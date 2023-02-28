@@ -9,13 +9,13 @@ import Sobre from "./Components/pages/Sobre";
 
 import Container from "./Components/Layout/Container";
 import Navbar from "./Components/Layout/Navbar";
+import Footer from "./Components/Layout/Footer";
+
 
 function App() {
   return (
    <Router>
-      <div>
       <Navbar/>
-      </div>
       <Switch>
         <Container customClass='min-height'>
             <Route exact path='/'>
@@ -35,8 +35,7 @@ function App() {
             </Route>
           </Container>
       </Switch>
-      
-      <footer>EdivanSantos2023</footer>
+      <Footer/>
    </Router>
   );
 }

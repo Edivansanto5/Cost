@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <div>
-            <h1>EdivanSantos2023</h1>
+            <footer>EdivanSantos2023</footer>
         </div>
     )
 }
