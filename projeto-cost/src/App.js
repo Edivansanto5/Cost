@@ -8,15 +8,13 @@ import NovoProjeto from "./Components/pages/NovoProjeto";
 import Sobre from "./Components/pages/Sobre";
 
 import Container from "./Components/Layout/Container";
+import Navbar from "./Components/Layout/Navbar";
 
 function App() {
   return (
    <Router>
       <div>
-          <Link to='/'>Home</Link>
-          <Link to='/contato'>Contato</Link>
-          <Link to='/novoProjeto'>Novo Projeto</Link>
-          <Link to='/sobre'>Sobre</Link>
+      <Navbar/>
       </div>
       <Switch>
         <Container customClass='min-height'>
