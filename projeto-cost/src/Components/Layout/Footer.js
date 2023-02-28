@@ -1,6 +1,8 @@
 function Footer(){
     return(
-        <div>@Edivan Santos 2023</div>
+        <div>
+            <h1>EdivanSantos2023</h1>
+        </div>
     )
 }
 export default Footer;
