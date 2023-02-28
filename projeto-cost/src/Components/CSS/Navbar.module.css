@@ -4,3 +4,9 @@
     background-color: #222;
     padding: 1em;
 }
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
