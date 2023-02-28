@@ -8,10 +8,17 @@ function Navbar(){
         <nav>
             <Container>
                 <Link to='/'> <img src={logo} alt="cost" /></Link>
-                <Link to='/'>Home</Link>
-                <Link to='/contato'>Contato</Link>
-                <Link to='/novoProjeto'>Novo Projeto</Link>
-                <Link to='/sobre'>Sobre</Link>
+               <ul>
+                    <li>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='/contato'>Contato</Link>
+                    </li>
+                    <li>
+                        <Link to='/sobre'>Sobre</Link>
+                    </li>
+               </ul>
             </Container>
 
         </nav>
