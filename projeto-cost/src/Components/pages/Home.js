@@ -5,8 +5,8 @@ function Home(){
         <section>
             <h1>Bem-vindo ao <span>Cost</span></h1>
             <p>Comece a gerenciar seus projetos agora mesmo</p>
-            <img src={img} alt="cost" />
             <Link>Novo Projeto</Link>
+            <img src={img} alt="cost" />
         </section>
     )
 }
