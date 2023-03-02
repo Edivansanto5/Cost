@@ -1,0 +1,16 @@
+.novoprojeto_container{
+    width: 450px; /*largura maxima*/
+    margin: 0 auto; /*vai centralizar esse container*/
+    padding: 3em; /* da um espaçammento interno dos elementos*/
+ 
+  
+    
+}
+.novoprojeto_container h1{
+    margin-bottom: 0.5em;
+    /* text-align: center; */
+}
+
+.novoprojeto_container p{
+    color:#7b7b7b;
+}
