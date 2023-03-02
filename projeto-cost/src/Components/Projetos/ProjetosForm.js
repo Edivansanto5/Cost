@@ -10,7 +10,7 @@ function ProjetoForm(){
                 </div>
                 <div>
                 <select name="category_id">
-                    <option disabled >selecione a Categoria</option>
+                    <option disabled selected >Selecione a Categoria</option>
                 </select>
                 </div>
                 <div>
