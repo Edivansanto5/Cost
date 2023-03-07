@@ -1,4 +1,5 @@
 import styles from '../CSS/ProjetosForm.module.css'
+import LinkButtom from '../Layout/LinkButtom';
 import Input from '../Form/Input';
 
 function ProjetoForm(){
@@ -11,18 +12,21 @@ function ProjetoForm(){
            name='name' 
            placeholder='Insira o Nome do Projeto'
            />
-           
-            <div>
-                <input type="number" placeholder="Informe o Orçamento Total" />
-            </div>
+            <Input 
+            type='number'
+            text='Informe o Valor do Orçamento'
+            name='budget'
+            placeholder='Informe o Valor do Orçamento '/>
+          
             <div>
             <select name="category_id">
                 <option disabled selected >Selecione a Categoria</option>
             </select>
             </div>
-            <div>
+            {/* <div>
                 <input type='submit' value='Criar Projeto'/>
-            </div>   
+            </div>    */}
+            <LinkButtom type='submit' text='Criar Projeto'/>
         </form>
     )
 }
