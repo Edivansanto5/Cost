@@ -20,8 +20,7 @@ function ProjetoForm(){
             name='budget'
             placeholder='Informe o Valor do Orçamento '/>
           
-          <Select
-          type='text'
+          <Select name='category_id' text='Selecione a Categoria'
           />
            
             <LinkButtom type='submit' text='Criar Projeto'/>
